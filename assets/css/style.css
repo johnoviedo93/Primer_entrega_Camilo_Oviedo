@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Montserra', sans-serif;
+	background-color: rgba(96, 170, 212, 0.767);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p, h2{
+    color: white;
+}
+/************ header ***********/
+.header {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	box-shadow: 0 2px 8px rgb(247, 239, 239);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #1D223C;
+	z-index: 100;
+}
+.navbar {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.logo {
+	width: 140px;
+}
+.menuVr{
+    display: flex;
+}
+.menuItem{
+    list-style: none;
+    margin: 0 30px;
+}
+.itemMenu{
+    display: block;
+	border: 1px solid white;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	color: white;
+}
+.itemMenu:hover{
+    color: white;
+    background-color: rgba(96, 170, 212, 0.767);
+}
+
+/*** main ***/
+.mainVR {
+	max-width: 1100px;
+	margin: auto;
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.sectVR {
+	width: 80%;
+}
+.content {
+	display: flex;
+	margin-bottom: 100px;
+	justify-content: space-between;
+	align-items: center;
+}
+.content > p,
+.content div {
+	width: 47%;
+}
+.content img {
+    width: 45%;
+    border-radius: 5px;
+}
+.subTitle {
+    text-align: center;
+	margin-bottom: 20px;
+	padding-right: 40px;
+}
+.text {
+	text-align: justify;
+}
+.text2 {
+	text-align: justify;
+}
+
+/***** aside  *********/
+
+.asideVR {
+	width: 20%;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(79, 163, 241, 0.568);
+	position: sticky;
+	top: 50px;
+	height: 350px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.derechaVR {
+	margin-bottom: 30px;
+}
+.imgVR {
+	width: 85%;
+	display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+.textAside{
+    color: white;
+}
+
+/***** footter *****/
+
+.footerVR {
+	display: flex;
+	padding: 40px 0;
+	background-color: rgb(10, 41, 82);
+}
+.divFooter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.divFooter p {
+	color: whitesmoke;
+}
+.divFooter a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-weight: 200;
+}
+/******* Gallery *******/
+
+.textGallery{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.galleryVR {
+	max-width: 1400px;
+	margin: auto;
+    padding-top: 150px;
+}
+
+.galleryContent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 39px;
+    box-shadow: 0 0 8px blue;
+    border-radius: 10px;
+}
+.galleryContent img {
+	width: 23%;
+    margin: 4px;
+	cursor: pointer;
+    transition: all 0.2s ease-in;
+    border-radius: 5px
+}
+.galleryContent img:hover {
+	transform: scale(1.1);
+	transition: all 0.8s ease-in;
+}
+h4{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
